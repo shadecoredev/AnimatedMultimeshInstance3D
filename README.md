@@ -106,8 +106,6 @@ It allows you to scatter animated meshes in a volume randomly. It picks and play
 
 ![BulkAnimatedMultimeshControl](images/Screenshot5.png)
 
-Feel free to copy and modify the code to suit your project needs.
-
 ## Comprehensive demo
 
 I included a more complex demo located at `res://syncing_and_collision_demo/scenes/syncing_and_collision_demo_scene.tscn`.
@@ -126,3 +124,6 @@ It features:
 Copyright notice is located in `LICENSE.txt`.  
 Source code is licensed under MIT license.  
 Ghoul model and texture are licensed under CC BY-NC 4.0 license.
+
+
+Feel free to copy and modify the code to suit your project needs.
