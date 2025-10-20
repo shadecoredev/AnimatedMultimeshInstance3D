@@ -418,7 +418,7 @@ func get_current_animation_name(instance : int) -> String:
 	return ""
 
 ## Returnsthe timestamp of the playing animation on an instance. Use animation_player.seek(timestamp) to sync Multimesh to any AnimationPlayer.
-func get_current_animation_timestamp(instance : int) -> int:
+func get_current_animation_timestamp(instance : int) -> float:
 	return get_current_timestamp() - float(instance) * 0.19
 
 ## Combines animation data into shader readable format. Use this method if you want create custom animation processing solution.

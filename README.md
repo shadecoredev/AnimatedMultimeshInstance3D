@@ -1,6 +1,6 @@
 # AnimatedMultimeshInstance3D
 
-Godot 4.4.1 project containing the addon adding AnimatedMultimeshInstance3D node and an example scene.
+Godot 4.5.1 project containing the addon adding AnimatedMultimeshInstance3D node and an example scene.
 
 AnimatedMultimeshInstance3D extends Godot's MultimeshInstance3D.
 
@@ -37,7 +37,7 @@ It's unnoticeable at distance, but if you want to use the animation blending up 
 
 Start by downloading and opening the project.
 
-It contains a demo scene at the path `res://demo/scene/example_scene.tscn` that you can test and explore.
+It contains a demo scene at the path `res://basic_demo/scene/example_scene.tscn` that you can test and explore.
 
 ![Demo scene](images/Screenshot2.png)
 
@@ -82,6 +82,9 @@ To retrieve an animation name of the currently played anmiation use
 To play an animation by name use  
 `play(instance : int, animation_name: StringName = &"", blend_duration : float = 0.0, blend_out_time : float = 0.0)`
 
+To sync AnimatedMultiMeshInstance3D animation with AnimationPlayer use [AnimationPlayer.seek()](https://docs.godotengine.org/en/stable/classes/class_animationplayer.html#class-animationplayer-method-seek) with  
+`get_current_animation_timestamp(instance : int):`
+
 To retrieve an animation data (MultimeshAnimationData) of currently played animation use  
 `get_current_animation(instance : int)`
 
@@ -104,3 +107,22 @@ It allows you to scatter animated meshes in a volume randomly. It picks and play
 ![BulkAnimatedMultimeshControl](images/Screenshot5.png)
 
 Feel free to copy and modify the code to suit your project needs.
+
+## Comprehensive demo
+
+I included a more complex demo located at `res://syncing_and_collision_demo/scenes/syncing_and_collision_demo_scene.tscn`.
+
+![Complex demo screenshot](images/Screenshot6.png)
+
+It features:
+- Bulk multimesh control, managing transforms and animations for large amount of entities;
+- Entity movement, avoidance, state machine, aggro and attacking player;
+- Syncing attack and death animation;
+- Shooting and accurate per-instance raycast physical bone collision detection;
+- Turning dead entities into static corpses to boost performance.
+
+## License
+
+Copyright notice is located in `LICENSE.txt`.  
+Source code is licensed under MIT license.  
+Ghoul model and texture are licensed under CC BY-NC 4.0 license.
