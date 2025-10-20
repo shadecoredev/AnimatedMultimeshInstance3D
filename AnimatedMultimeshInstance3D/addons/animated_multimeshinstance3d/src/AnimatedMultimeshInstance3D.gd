@@ -13,7 +13,7 @@ const FRAME_COUNT_LIMIT : int = 8192
 @export_range(1.0, 30.0, 1.0) var sampling_fps : float = 5.0
 
 ## PackedScene containing AnimationPlayer, Skeleton3D and MeshInstance3D.
-@export var packed_animation : PackedScene : 
+@export var packed_animation : PackedScene :
 	set(value):
 		packed_animation = value
 		_clear()
@@ -140,37 +140,51 @@ func _editor_process(delta : float) -> void:
 		_current_frame_index = 0
 
 func _save_animation() -> void:
-	var error_vertex = ResourceSaver.save(_vertex_image, _valid_output_directory + "/vertex_animation.tres")
+	var vertex_image_texture = ImageTexture.create_from_image(_vertex_image)
+	var error_vertex = ResourceSaver.save(vertex_image_texture, _valid_output_directory + "/vertex_animation.tres")
 	if error_vertex != Error.OK:
 		printerr("Error while saving vertex animation to %s" % _valid_output_directory + "/vertex_animation.tres")
 		return
+	else:
+		print("Vertex animation texture saved successfully to %s" % [_valid_output_directory + "/vertex_animation.tres"])
 		
-	var error_normal = ResourceSaver.save(_normal_image, _valid_output_directory + "/normal_animation.tres")
+	var normal_image_texture = ImageTexture.create_from_image(_normal_image)
+	var error_normal = ResourceSaver.save(normal_image_texture, _valid_output_directory + "/normal_animation.tres")
 	if error_normal != Error.OK:
 		printerr("Error while saving normal animation to %s" % _valid_output_directory + "/normal_animation.tres")
 		return
+	else:
+		print("Normal animation texture saved successfully to %s" % [_valid_output_directory + "/normal_animation.tres"])
+
+	var vertex_animation_shader_material : ShaderMaterial
 	
-	var vertex_animation_shader_material = ShaderMaterial.new()
+	if material_override and material_override is ShaderMaterial:
+		vertex_animation_shader_material = material_override
+	else:
+		vertex_animation_shader_material = ShaderMaterial.new()
+	
 	vertex_animation_shader_material.set_shader(load(ANIMATION_SHADER_PATH))
 	vertex_animation_shader_material.set_shader_parameter("vertex_animation", 
-		ImageTexture.create_from_image(
-			ResourceLoader.load(
-				_valid_output_directory + "/vertex_animation.tres"
-			)
+		ResourceLoader.load(
+			_valid_output_directory + "/vertex_animation.tres"
 		)
 	)
 	vertex_animation_shader_material.set_shader_parameter("normal_animation",
-		ImageTexture.create_from_image(
-			ResourceLoader.load(
-				_valid_output_directory + "/normal_animation.tres"
-			)
+		ResourceLoader.load(
+			_valid_output_directory + "/normal_animation.tres"
 		)
 	)
+
 	vertex_animation_shader_material.set_shader_parameter("total_frame_count", float(_total_frame_counter))
 	vertex_animation_shader_material.set_shader_parameter("total_vertex_count", float(_total_num_vertices))
 	vertex_animation_shader_material.set_shader_parameter("sampling_fps", sampling_fps)
-		
-	ResourceSaver.save(vertex_animation_shader_material, _valid_output_directory + "/animation_material.tres")
+	
+	var error_material = ResourceSaver.save(vertex_animation_shader_material, _valid_output_directory + "/animation_material.tres")
+	if error_material != Error.OK:
+		printerr("Error while saving material to %s" % _valid_output_directory + "/animation_material.tres")
+		return
+	else:
+		print("Animation material saved successfully to %s" % [_valid_output_directory + "/animation_material.tres"])
 
 	material_override = ResourceLoader.load(_valid_output_directory + "/animation_material.tres")
 
@@ -304,7 +318,7 @@ func _update_new_animation() -> void:
 		),
 		1
 	)
-	
+
 	var current_animation_name = _animation_player.get_animation_list()[_current_animation_index]
 	animation_list[current_animation_name] = \
 		MultimeshAnimationData.new().set_values(
@@ -312,7 +326,7 @@ func _update_new_animation() -> void:
 			_current_anmiation_frame_count
 		)
 	print("Added anmiation \"%s\" to the animation list." % current_animation_name)
-			
+
 	var animation_name = _animation_player.get_animation_list()[_current_animation_index]
 	_animation_player.play(animation_name)
 	_animation_player.advance(1.0/sampling_fps)
@@ -320,26 +334,34 @@ func _update_new_animation() -> void:
 func _initialize_multimesh() -> void:
 	if multimesh == null:
 		multimesh = MultiMesh.new()
-		
+
 	if !multimesh.use_custom_data:
 		multimesh.instance_count = 0
 		multimesh.use_custom_data = true
-	
+
 	if multimesh.transform_format != MultiMesh.TRANSFORM_3D:
 		multimesh.instance_count = 0
 		multimesh.transform_format = MultiMesh.TRANSFORM_3D
-	
+
 	multimesh.mesh = _mesh
 
 ## Returns the list of stored animation keys.
 func get_animation_list() -> Array[String]:
 	return animation_list.keys()
 
+## Returns data of the animation by name.
+func get_animation_data(animation_name: StringName = &"") -> MultimeshAnimationData:
+	if !animation_list.has(animation_name):
+		return null
+	return animation_list[animation_name]
+
 ## Plays the animation from animation list for a specific instance.
 func play(
 	instance : int,
 	animation_name: StringName = &"",
-	blend_time : float = 1.0):
+	blend_duration : float = 1.0,
+	blend_out_time : float = 0.0
+):
 	if !animation_list.has(animation_name):
 		push_warning("Animation with name \"%s\" not found." % animation_name)
 		return
@@ -347,47 +369,84 @@ func play(
 	var current_animation : MultimeshAnimationData = null
 
 	if _is_renderer_forward_plus:
-		current_animation = _get_animation(instance)
+		current_animation = get_animation(instance)
 	
 	var animation : MultimeshAnimationData = animation_list[animation_name]
 
-	multimesh.set_instance_custom_data(instance, _combine_custom_buffer(current_animation, animation, blend_time))
+	multimesh.set_instance_custom_data(instance, combine_custom_buffer(current_animation, animation, blend_duration, blend_out_time))
 
-## Plays the animation from animation from data for a specific instance.
+## Plays the animation from animation data for a specific instance.
 func play_custom(
 	instance : int,
 	animation : MultimeshAnimationData,
-	blend_time : float = 0.0
+	blend_duration : float = 0.0,
+	blend_out_time : float = 0.0
 ):
 	var current_animation : MultimeshAnimationData = null
 
 	if _is_renderer_forward_plus:
-		current_animation = _get_animation(instance)
-	
-	multimesh.set_instance_custom_data(instance, _combine_custom_buffer(current_animation, animation, blend_time))
+		current_animation = get_animation(instance)
 
-func _get_animation(instance : int) -> MultimeshAnimationData:
-	return MultimeshAnimationData.dencode_forward_plus(
+	multimesh.set_instance_custom_data(instance, combine_custom_buffer(current_animation, animation, blend_duration, blend_out_time))
+
+## Returns data of the currently played animation.
+func get_animation(instance : int) -> MultimeshAnimationData:
+	if _is_renderer_forward_plus:
+		var alpha_channel_data : PackedInt64Array = MultimeshAnimationData.decode_two_integers_forward_plus(
+			multimesh.get_instance_custom_data(instance).a
+		)
+		if alpha_channel_data[1] != 0:  ## Blend out time is not zero, meaning the animation blends back to original animation
+			return MultimeshAnimationData.dencode_animation_forward_plus(
+				multimesh.get_instance_custom_data(instance).r
+			)
+	
+	return MultimeshAnimationData.dencode_animation_forward_plus(
 		multimesh.get_instance_custom_data(instance).g
 	)
 
-func _combine_custom_buffer(
+## Returns the name of the currently played animation. Slower than get_animation().
+func get_current_animation_name(instance : int) -> String:
+	var start_frame : int = 0
+	
+	var current_animation : MultimeshAnimationData = get_animation(instance)
+	
+	for key in animation_list.keys():
+		if animation_list[key].start_frame == current_animation.start_frame:
+			return key
+	
+	push_warning("Current animation not recognized")
+	return ""
+
+## Returnsthe timestamp of the playing animation on an instance. Use animation_player.seek(timestamp) to sync Multimesh to any AnimationPlayer.
+func get_current_animation_timestamp(instance : int) -> int:
+	return get_current_timestamp() - float(instance) * 0.19
+
+## Combines animation data into shader readable format. Use this method if you want create custom animation processing solution.
+func combine_custom_buffer(
 	main_animation : MultimeshAnimationData,
 	blended_animation : MultimeshAnimationData = main_animation,
-	blend_time : float = 0.0
-):
+	blend_duration : float = 0.0,
+	blend_out_time : float = 0.0
+) -> Color:
 	if _is_renderer_forward_plus:
-		var blend_timestamp : float = fmod((float(Time.get_ticks_msec()) / 1000.0), _rollover_value) - 1.0
+		var blend_timestamp : float = get_current_timestamp()
 		return Color(
-			MultimeshAnimationData.encode_forward_plus(main_animation),
-			MultimeshAnimationData.encode_forward_plus(blended_animation),
+			MultimeshAnimationData.encode_animation_forward_plus(main_animation),
+			MultimeshAnimationData.encode_animation_forward_plus(blended_animation),
 			blend_timestamp,
-			blend_time
+			MultimeshAnimationData.encode_two_integers_forward_plus(
+				int(blend_duration * 16.0),
+				int(max(0.0, blend_out_time - blend_duration) * 16.0)
+			)
 		)
 	else:
 		return Color(
-			MultimeshAnimationData.encode_compatibility(blended_animation.start_frame),
-			MultimeshAnimationData.encode_compatibility(blended_animation.length),
+			blended_animation.start_frame,
+			blended_animation.length,
 			0.0,
 			0.0
 		)
+
+## Returns timestamp for the shader to sync blend time.
+func get_current_timestamp() -> float:
+	return fmod((float(Time.get_ticks_msec()) / 1000.0), _rollover_value) - 0.5

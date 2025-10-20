@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://dgkdq6hnh8epq"]
+
+[ext_resource type="Shader" uid="uid://yniwtitbvxlc" path="res://addons/animated_multimeshinstance3d/shaders/vetex_animation_shader.gdshader" id="1_wnlse"]
+[ext_resource type="Texture2D" uid="uid://b1xpy0ql8hbv7" path="res://nondemo/ghoul/ghoul_albedo.png" id="2_eqsvc"]
+[ext_resource type="Texture2D" uid="uid://cruimy563npmh" path="res://nondemo/ghoul/normal_animation.tres" id="2_r2y2u"]
+[ext_resource type="Texture2D" uid="uid://boaqdcjgg1mfo" path="res://nondemo/ghoul/vertex_animation.tres" id="3_eqsvc"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_wnlse")
+shader_parameter/albedo = ExtResource("2_eqsvc")
+shader_parameter/vertex_animation = ExtResource("3_eqsvc")
+shader_parameter/normal_animation = ExtResource("2_r2y2u")
+shader_parameter/total_frame_count = 192.0
+shader_parameter/total_vertex_count = 396.0
+shader_parameter/sampling_fps = 10.0

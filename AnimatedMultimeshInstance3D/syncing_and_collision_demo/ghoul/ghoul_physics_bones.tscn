@@ -1,0 +1,2045 @@
+[gd_scene load_steps=94 format=3 uid="uid://cupp1qla36fk3"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_y58p4"]
+radius = 0.152766
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_b4805"]
+radius = 0.111621
+height = 0.223241
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_u568b"]
+radius = 0.179645
+height = 0.359327
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_qmbql"]
+radius = 0.104946
+height = 0.234896
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_i3202"]
+radius = 0.0277341
+height = 0.0680372
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_0hnkl"]
+radius = 0.140965
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lotmf"]
+radius = 8.25728e-17
+height = 8.25728e-16
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1frm6"]
+radius = 0.114944
+height = 0.247662
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_iklhu"]
+radius = 1.48721e-09
+height = 1.48721e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gabh2"]
+radius = 1.32977e-09
+height = 1.32977e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_osim7"]
+radius = 2.10734e-09
+height = 2.10734e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_bdodu"]
+radius = 5.17534e-09
+height = 5.17534e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_y2hv4"]
+radius = 3.97086e-09
+height = 3.97086e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r3p8w"]
+radius = 3.78168e-09
+height = 3.78168e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_mvo5w"]
+radius = 0.07
+height = 0.5
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_bc1im"]
+radius = 0.0491013
+height = 0.491013
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y58p4"]
+size = Vector3(0.140854, 0.290161, 0.126465)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wdjcx"]
+radius = 3.9729e-10
+height = 3.9729e-09
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_b4805"]
+radius = 0.0881838
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ojc03"]
+radius = 2.23254e-09
+height = 2.23254e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3nm71"]
+radius = 4.09371e-09
+height = 4.09371e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ky35v"]
+radius = 0.07
+height = 0.5
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ud16k"]
+radius = 0.0491013
+height = 0.491013
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_20jk3"]
+radius = 3.73168e-09
+height = 3.73168e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_dqgx4"]
+radius = 2.47695e-09
+height = 2.47695e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_h7w6f"]
+radius = 2.17632e-09
+height = 2.17632e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_18fw0"]
+radius = 1.19965e-08
+height = 1.19965e-07
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_bmnag"]
+radius = 6.47537e-09
+height = 6.47537e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wk8da"]
+radius = 0.0538599
+height = 0.252553
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_io1n3"]
+radius = 0.0382161
+height = 0.252553
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_cu4mw"]
+radius = 0.045996
+height = 0.245507
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_5c830"]
+radius = 0.0378886
+height = 0.245507
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_feb6y"]
+radius = 0.0129246
+height = 0.129246
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_aag1j"]
+radius = 1.63235e-09
+height = 1.63235e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_oo71j"]
+radius = 1.28864e-08
+height = 1.28864e-07
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_5btx3"]
+radius = 0.0455779
+height = 0.252553
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3avtr"]
+radius = 0.0399734
+height = 0.252553
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_eh4wu"]
+radius = 0.0416958
+height = 0.245507
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_oqvc5"]
+radius = 0.0429634
+height = 0.245507
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_n2uxu"]
+radius = 0.0129246
+height = 0.129246
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1n7b8"]
+radius = 2.98169e-09
+height = 2.98169e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0m1gm"]
+radius = 1.48721e-09
+height = 1.48721e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gdc1e"]
+radius = 4.01306e-09
+height = 4.01306e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_scf1x"]
+radius = 3.37636e-09
+height = 3.37636e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hlb77"]
+radius = 1.67262e-11
+height = 1.67262e-10
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_2fhoc"]
+radius = 0.00680373
+height = 0.0680373
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wg21e"]
+radius = 0.00541065
+height = 0.0541065
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_q7nim"]
+radius = 1.19532e-08
+height = 1.19532e-07
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3i73c"]
+radius = 0.0591077
+height = 0.121302
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rdhnb"]
+radius = 9.58276e-10
+height = 9.58276e-09
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_w38i4"]
+radius = 0.00680372
+height = 0.0680372
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_a72ga"]
+radius = 9.68038e-09
+height = 9.68038e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_43rev"]
+radius = 5.64683e-09
+height = 5.64683e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wh50g"]
+radius = 0.0457521
+height = 0.159021
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ucj2v"]
+radius = 0.076898
+height = 0.255236
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_eg7hj"]
+radius = 0.0607489
+height = 0.301395
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_x02ie"]
+radius = 0.047554
+height = 0.472918
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_svkbj"]
+radius = 1.34721e-08
+height = 1.34721e-07
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gtjiv"]
+radius = 1.40045e-08
+height = 1.40045e-07
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_u568b"]
+radius = 0.0694427
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8nfr6"]
+radius = 9.50785e-09
+height = 9.50785e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_2tqu2"]
+radius = 9.44768e-09
+height = 9.44768e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_cve77"]
+radius = 1.18165e-08
+height = 1.18165e-07
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7o8g2"]
+radius = 4.51897e-09
+height = 4.51897e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_c5w32"]
+radius = 0.0276575
+height = 0.150698
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6gcb4"]
+radius = 0.0150698
+height = 0.150698
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7ou3s"]
+radius = 0.0147862
+height = 0.147862
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_i2ttw"]
+radius = 0.0147862
+height = 0.147862
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_enqtu"]
+radius = 0.0449031
+height = 0.301395
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4gpqv"]
+radius = 0.0586584
+height = 0.481127
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xx82q"]
+radius = 1.30842e-08
+height = 1.30842e-07
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_g4ipp"]
+radius = 1.36019e-08
+height = 1.36019e-07
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_qmbql"]
+radius = 0.0605914
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ljfy5"]
+radius = 2.01608e-08
+height = 2.01608e-07
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_g2we6"]
+radius = 1.07569e-08
+height = 1.07569e-07
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_dk1s6"]
+radius = 1.18199e-08
+height = 1.18199e-07
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_52dp8"]
+radius = 6.24588e-09
+height = 6.24588e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6owo5"]
+radius = 0.0432453
+height = 0.150698
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1crkm"]
+radius = 0.0150698
+height = 0.150698
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lskl3"]
+radius = 0.0147862
+height = 0.147862
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_08dmp"]
+radius = 0.0397834
+height = 0.147862
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_soxpx"]
+radius = 4.6332e-09
+height = 4.6332e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ixd04"]
+radius = 4.58502e-09
+height = 4.58502e-08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lqtyi"]
+radius = 0.008
+height = 0.08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4vmq7"]
+radius = 0.004
+height = 0.04
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8haop"]
+radius = 0.0402926
+height = 0.140312
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_h7aoo"]
+radius = 0.0129246
+height = 0.129246
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0fj8a"]
+radius = 3.37266e-10
+height = 3.37266e-09
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_n3jyj"]
+radius = 0.008
+height = 0.08
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_d7jbd"]
+radius = 0.004
+height = 0.04
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_n11vv"]
+radius = 0.041517
+height = 0.140312
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_a2ahf"]
+radius = 0.0129246
+height = 0.129246
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rilym"]
+radius = 8.31371e-10
+height = 8.31371e-09
+
+[node name="PhysicalBoneSimulator3D" type="PhysicalBoneSimulator3D"]
+transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0, 0, 0)
+
+[node name="Physical Bone DEF-spine" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 7.73025e-08, -3.27383e-07, -2.97721e-07, -0.249638, -0.968339, -1.56582e-07, 0.968339, -0.249638, -4.88758e-06, 1.0836, -0.0522381)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.91537e-06, 9.84107e-06, 0.0761068)
+body_offset = Transform3D(1, -1.49009e-08, -3.65078e-07, -3.65078e-07, 7.00355e-07, -1, 1.49012e-08, 1, 7.00355e-07, -4.88758e-06, 0.0761068, -9.89437e-06)
+bone_name = "DEF-spine"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-spine"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("SphereShape3D_y58p4")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-spine_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -3.1097e-07, -4.46296e-07, -5.06935e-07, -0.235294, -0.971924, 1.97229e-07, 0.971924, -0.235294, -2.14577e-06, 1.22509, -0.0168123)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.18059e-06, -2.86934e-06, 0.0697543)
+body_offset = Transform3D(1, -1.8626e-07, -4.99171e-07, -4.99171e-07, 1.19209e-07, -1, 1.8626e-07, 1, 1.19209e-07, -2.14577e-06, 0.0697542, 2.86102e-06)
+bone_name = "DEF-spine.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-spine_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_b4805")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-spine_002" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -3.09117e-07, -2.21096e-07, -2.11149e-07, 0.0318147, -0.999494, 3.15994e-07, 0.999494, 0.0318147, 1.66893e-06, 1.37928, -0.00316536)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.65219e-06, 1.53432e-05, 0.0864266)
+body_offset = Transform3D(1, -1.41561e-07, -1.93704e-07, -1.93704e-07, 4.02331e-07, -1, 1.41561e-07, 1, 4.02331e-07, 1.66893e-06, 0.0864266, -1.5378e-05)
+bone_name = "DEF-spine.002"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-spine_002"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_u568b")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-spine_003" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -5.3833e-07, -1.91166e-06, -1.89551e-06, 0.0285639, -0.999592, 5.92715e-07, 0.999592, 0.0285639, -8.58307e-06, 1.56194, -0.00866616)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.76671e-06, 1.55156e-05, 0.0962764)
+body_offset = Transform3D(1, -3.87395e-07, -1.90735e-06, -1.90735e-06, 2.28547e-06, -1, 3.874e-07, 1, 2.28547e-06, -8.58307e-06, 0.0962764, -1.57356e-05)
+bone_name = "DEF-spine.003"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-spine_003"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_qmbql")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-spine_004" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 1.55525e-06, 2.22772e-07, 1.51787e-06, -0.919736, -0.392537, -4.05603e-07, 0.392537, -0.919736, 1.26362e-05, 1.67159, 0.0198781)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.26413e-05, 3.52423e-05, 0.0340239)
+body_offset = Transform3D(1, 1.61305e-06, 1.49014e-07, 1.49012e-07, 1.2815e-06, -1, -1.61305e-06, 1, 1.2815e-06, 1.26362e-05, 0.0340239, -3.52859e-05)
+bone_name = "DEF-spine.004"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-spine_004"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_i3202")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-spine_005" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -9.57831e-08, -1.05014e-08, -8.31037e-08, -0.802159, -0.597111, 4.87694e-08, 0.597111, -0.802159, 7.70092e-05, 1.7011, 0.0742177)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.70065e-05, -0.000772977, 0.0281501)
+body_offset = Transform3D(1, 2.90575e-07, -8.94068e-08, -8.9407e-08, 8.34465e-07, -1, -2.90575e-07, 1, 8.34465e-07, 7.70092e-05, 0.0281501, 0.000772953)
+bone_name = "DEF-spine.005"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-spine_005"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -7.41043e-10, -0.0146477, -0.0586623)
+shape = SubResource("SphereShape3D_0hnkl")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-torso_parent" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 1.0836, -0.0522279)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+bone_name = "MCH-torso.parent"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-torso_parent"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_lotmf")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone torso" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-1, 2.6978e-06, -8.51736e-07, 1.47521e-06, 0.24036, -0.970684, -2.41399e-06, -0.970684, -0.24036, 3.33786e-06, 1.18825, -0.0263146)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.24604e-06, 1.45286e-07, 0.10781)
+body_offset = Transform3D(-1, 2.6978e-06, -8.51736e-07, 2.41399e-06, 0.970684, 0.24036, 1.47521e-06, 0.24036, -0.970684, 3.33786e-06, -0.0259132, 0.104649)
+bone_name = "torso"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone torso"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_1frm6")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-spine_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 4.69584e-06, 5.12415e-06, -5.12414e-06, -1.80304e-06, 1, 4.69584e-06, -1, -1.80302e-06, 0, 1.2929, -0.000399947)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 4.54484e-06, 5.12415e-06, -4.54485e-06, 1, 1.80302e-06, -5.12414e-06, -1.80304e-06, 1, 0, 0, 0)
+bone_name = "MCH-spine.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-spine_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_iklhu")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-spine" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -6.23864e-07, 9.61125e-07, -9.61124e-07, 1.63234e-06, 1, -6.23866e-07, -1, 1.63234e-06, 0, 1.1573, -0.0332278)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, -7.7486e-07, 9.61125e-07, 7.7486e-07, 1, -1.42225e-07, -9.61125e-07, 1.42226e-07, 1, 0, 0, 0)
+bone_name = "MCH-spine"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-spine"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_gabh2")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone tweak_spine" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -4.51449e-08, -8.66106e-08, 2.20943e-08, 0.968339, -0.249638, 9.51383e-08, 0.249638, 0.968339, 0, 1.0099, -0.0712279)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.13163e-14, 2.62901e-13, -1.19209e-07)
+body_offset = Transform3D(1, -7.45016e-09, -1.78814e-07, 7.45056e-09, 1, 2.20537e-06, 1.78814e-07, -2.20537e-06, 1, 0, 0, 1.19209e-07)
+bone_name = "tweak_spine"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone tweak_spine"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_osim7")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-spine" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -4.16548e-09, -6.82657e-07, -1.66383e-07, 0.968339, -0.249638, 6.62083e-07, 0.249638, 0.968339, 0, 1.0099, -0.071228)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 3.35293e-08, -7.7486e-07, -3.35276e-08, 1, 2.13087e-06, 7.7486e-07, -2.13087e-06, 1, 0, 0, 0)
+bone_name = "ORG-spine"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-spine"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_bdodu")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-pelvis_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.42175, 0.536321, -0.731086, -0.276836, 0.691637, 0.667083, 0.863417, 0.483734, -0.143225, 0, 1.0099, -0.0712281)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, -1.88053e-05, 1.66371e-05, 1.87159e-05, 1, -1.19731e-05, -1.64509e-05, 1.17198e-05, 1, 0, 0, 0)
+bone_name = "ORG-pelvis.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-pelvis_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_y2hv4")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-pelvis_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.421773, -0.536321, 0.731073, 0.276838, 0.691624, 0.667096, -0.863405, 0.483751, -0.143234, 0, 1.0099, -0.0712281)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 1.78814e-07, -2.98023e-08, -5.96046e-08, 1, -5.21541e-07, -3.72529e-08, 3.8743e-07, 1, 0, 0, 0)
+bone_name = "ORG-pelvis.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-pelvis_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_r3p8w")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-thigh_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.055544, -0.974835, -0.215898, -0.00893257, -0.215738, 0.976411, -0.998416, 0.0561622, 0.00327515, 0.133167, 0.818782, -0.0162423)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.99357e-06, -4.35155e-08, 0.252555)
+body_offset = Transform3D(1, 9.96888e-06, -6.73928e-06, -6.75186e-06, 4.80216e-06, -1, -9.93162e-06, 1, 4.89267e-06, -4.29153e-06, 0.252555, -1.19209e-06)
+bone_name = "ORG-thigh.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-thigh_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_mvo5w")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-shin_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555529, -0.99025, -0.127748, -0.00894199, -0.127447, 0.991805, -0.998416, 0.0562399, -0.00177473, 0.219049, 0.328694, -0.0166489)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2905e-05, -2.33689e-06, 0.245506)
+body_offset = Transform3D(1, -8.97795e-07, 6.09551e-07, 5.98608e-07, -3.64917e-06, -1, 9.27597e-07, 1, -3.59157e-06, 1.27554e-05, 0.245506, 3.21865e-06)
+bone_name = "ORG-shin.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-shin_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_bc1im")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-foot_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.999999, -0.00117011, -9.59386e-07, -0.000991741, -0.847995, 0.530003, -0.000620976, -0.530003, -0.847996, 0.250161, 0.0509443, 0.0386089)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000255696, 3.27357e-07, 0.064634)
+body_offset = Transform3D(1, 9.51695e-09, 1.1595e-07, 1.0262e-07, -4.11272e-06, -1, -1.82481e-08, 1, -4.14252e-06, -0.000255704, 0.064634, -5.96046e-08)
+bone_name = "ORG-foot.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-foot_L"]
+transform = Transform3D(1, 3.49828e-08, 2.44327e-08, 1.45519e-10, -0.262426, 0.96496, -2.32831e-10, -0.964954, -0.262428, 0.0224836, 0.0145172, -0.0661734)
+shape = SubResource("BoxShape3D_y58p4")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-foot_tweak_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.999999, 1.06111e-06, -0.00117243, -0.000993654, -0.530001, -0.847997, -0.000622288, 0.847997, -0.53, 0.262397, 0.0854416, -0.0162449)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0119797, 0.000165463, 0.000195632)
+body_offset = Transform3D(1, -1.01863e-08, -7.97445e-07, -3.25963e-09, 1, -1.19209e-06, 7.88656e-07, 1.2517e-06, 1, 0.0119797, -0.000165462, -0.000195622)
+bone_name = "MCH-foot_tweak.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-foot_tweak_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_wdjcx")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-shin_tweak_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555509, 0.127745, -0.99025, -0.00894067, -0.991805, -0.127444, -0.998416, 0.00177384, 0.0562378, 0.187689, 0.572189, -0.0170718)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 4.58094e-07, 1.14366e-06, -4.68455e-07, 1, -6.69234e-06, -1.12131e-06, 6.62614e-06, 1, 0, 0, 0)
+bone_name = "MCH-shin_tweak.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-shin_tweak_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("SphereShape3D_b4805")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-shin_tweak_L_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.61294, 0.127752, -0.779733, 0.0775438, -0.991805, -0.101542, -0.786315, 0.00177547, -0.617823, 0.219053, 0.328694, -0.0166363)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, -9.18051e-07, 2.11596e-06, 9.48668e-07, 1, 8.01403e-07, -2.35438e-06, -8.3691e-07, 1, 0, 0, 0)
+bone_name = "MCH-shin_tweak.L.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-shin_tweak_L_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_ojc03")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-thigh_tweak_L_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555511, 0.215896, -0.974835, -0.00893956, -0.976411, -0.215736, -0.998416, -0.00326977, 0.0561707, 0.133165, 0.818784, -0.0162464)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 1.46567e-06, 1.28523e-06, -1.47941e-06, 1, 2.74814e-06, -1.25542e-06, -2.81633e-06, 1, 0, 0, 0)
+bone_name = "MCH-thigh_tweak.L.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-thigh_tweak_L_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_3nm71")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-thigh_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555522, 0.974835, 0.215893, 0.00894235, -0.215733, 0.976412, 0.998416, 0.0561724, 0.00326711, -0.127416, 0.803719, -0.0118394)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00394568, -0.00910161, 0.266007)
+body_offset = Transform3D(1, 3.53903e-07, -1.00816e-06, -9.87202e-07, -1.26689e-07, -1, -3.72529e-07, 1, -7.92934e-08, 0.00394595, 0.266007, 0.00910163)
+bone_name = "ORG-thigh.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-thigh_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_ky35v")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-shin_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.055861, 0.990246, 0.127639, 0.0078419, -0.1274, 0.991821, 0.998408, 0.056405, -0.000648742, -0.219101, 0.328555, -0.0166012)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000313908, 4.02835e-05, 0.245651)
+body_offset = Transform3D(0.999999, 0.000166234, 0.00112982, 0.00112985, -4.95593e-05, -0.999999, -0.0001662, 1, -4.96732e-05, 3.63588e-05, 0.245651, -2.81334e-05)
+bone_name = "ORG-shin.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-shin_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_ud16k")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-foot_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.999999, 0.00118745, 2.54968e-07, 0.00100682, -0.847999, 0.529997, 0.00062956, -0.529997, -0.847999, -0.209436, 0.05094, 0.0386012)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0409807, -5.62275e-05, 0.0646295)
+body_offset = Transform3D(1, 1.7908e-05, 2.007e-07, 1.78639e-07, 1.93715e-06, -1, -1.78511e-05, 1, 1.90735e-06, 0.0409807, 0.0646296, 5.53727e-05)
+bone_name = "ORG-foot.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-foot_R"]
+transform = Transform3D(1, 0, 0, 0, -0.245155, 0.969484, 0, -0.969484, -0.245155, -0.0611432, 0.0160259, -0.0542154)
+shape = SubResource("BoxShape3D_y58p4")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-foot_tweak_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.999999, -1.00726e-07, 0.00114663, 0.000972286, -0.529999, -0.847998, 0.000607798, 0.847998, -0.529999, -0.250416, 0.0852, -0.0162005)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.15253e-07, -1.19209e-07, 1.19225e-07)
+body_offset = Transform3D(1, -1.91503e-08, -2.22388e-05, -2.67755e-09, 1, -1.78814e-07, 2.22957e-05, 2.08616e-07, 1, 7.15256e-07, 1.19209e-07, -1.19209e-07)
+bone_name = "MCH-foot_tweak.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-foot_tweak_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_20jk3")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-shin_tweak_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555515, -0.127753, 0.990249, 0.00894397, -0.991805, -0.127452, 0.998416, 0.00177663, 0.0562389, -0.187689, 0.572189, -0.0170717)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 2.71213e-06, -2.16067e-07, -2.69187e-06, 1, 1.06366e-06, 1.93715e-07, -1.14252e-06, 1, 0, 0, 0)
+bone_name = "MCH-shin_tweak.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-shin_tweak_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("SphereShape3D_b4805")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-shin_tweak_R_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.612941, -0.127752, 0.779732, -0.0775446, -0.991805, -0.101541, 0.786314, 0.00177464, -0.617824, -0.219053, 0.328694, -0.0166357)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.76837e-07, 1.4901e-08, 2.38419e-07)
+body_offset = Transform3D(1, -7.71834e-08, -1.3411e-06, 7.13626e-08, 1, 1.02096e-06, 1.51992e-06, -1.07684e-06, 1, 4.76837e-07, -1.49012e-08, -2.38419e-07)
+bone_name = "MCH-shin_tweak.R.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-shin_tweak_R_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_dqgx4")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-thigh_tweak_R_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555582, -0.2159, 0.974834, 0.00894672, -0.97641, -0.215739, 0.998415, -0.00326451, 0.0561792, -0.133165, 0.818784, -0.0162463)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 3.82983e-06, 6.43358e-06, -3.80911e-06, 1, 6.1771e-06, -6.45593e-06, -6.22912e-06, 1, 0, 0, 0)
+bone_name = "MCH-thigh_tweak.R.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-thigh_tweak_R_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_h7w6f")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-thigh_parent_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -1.07068e-05, -3.49805e-06, 3.49807e-06, 1.89245e-06, 1, -1.07068e-05, -1, 1.89248e-06, 0.0786349, 1.06538, -0.0154215)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.36441e-06, -4.76896e-07, -1.19228e-07)
+body_offset = Transform3D(1, -1.08629e-05, -3.49805e-06, 1.08629e-05, 1, -3.87468e-07, 3.49805e-06, 3.8743e-07, 1, -5.36442e-06, 4.76837e-07, 1.19209e-07)
+bone_name = "MCH-thigh_parent.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-thigh_parent_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_18fw0")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-thigh_tweak_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555523, 0.215895, -0.974835, -0.00894219, -0.976411, -0.215735, -0.998416, -0.0032674, 0.0561724, 0.0786402, 1.06538, -0.0154212)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.19209e-07, 8.72635e-14, 2.66455e-14)
+body_offset = Transform3D(1, -7.34348e-07, -1.86265e-07, 7.3202e-07, 1, 2.04887e-06, 2.23517e-07, -2.13286e-06, 1, 1.19209e-07, 0, 0)
+bone_name = "MCH-thigh_tweak.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-thigh_tweak_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_bmnag")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-thigh_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555526, -0.974837, -0.215888, -0.00894319, -0.215727, 0.976413, -0.998416, 0.056173, 0.00326607, 0.105904, 0.942087, -0.015837)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.32179e-06, 3.22196e-06, 0.126272)
+body_offset = Transform3D(1, -7.82311e-07, 1.7609e-06, 1.74833e-06, -5.78306e-06, -1, 8.15839e-07, 1, -5.6906e-06, 3.09944e-06, 0.126272, -2.5034e-06)
+bone_name = "DEF-thigh.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-thigh_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_wk8da")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-thigh_L_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555682, -0.974835, -0.21589, -0.00894587, -0.21573, 0.976412, -0.998415, 0.0561888, 0.00326695, 0.160435, 0.695487, -0.0164818)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000177374, -1.36848e-06, 0.126276)
+body_offset = Transform3D(1, -1.6626e-05, 1.0212e-06, 1.00769e-06, -3.42085e-06, -1, 1.66558e-05, 1, -3.34677e-06, -0.000177503, 0.126276, 1.78814e-06)
+bone_name = "DEF-thigh.L.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-thigh_L_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_io1n3")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-shin_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0560059, -0.990277, -0.127337, -0.00874175, -0.127046, 0.991858, -0.998392, 0.0566631, -0.00154144, 0.203346, 0.450435, -0.016855)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.90083e-05, 2.36748e-05, 0.122755)
+body_offset = Transform3D(1, -0.000425339, -0.00025565, -0.000255832, -0.000404603, -1, 0.000425261, 1, -0.000404665, 2.38419e-06, 0.122756, 2.59876e-05)
+bone_name = "DEF-shin.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-shin_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_cu4mw")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-shin_L_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.055554, -0.990249, -0.127752, -0.00894126, -0.127451, 0.991804, -0.998416, 0.056241, -0.00177363, 0.234796, 0.206748, -0.0162128)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000206988, 2.30444e-05, 0.122958)
+body_offset = Transform3D(1, 2.68221e-07, -3.30852e-07, -3.40398e-07, 5.88778e-07, -1, -2.49594e-07, 1, 6.68675e-07, -0.000206947, 0.122958, -2.31266e-05)
+bone_name = "DEF-shin.L.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-shin_L_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_5c830")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-foot_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.999999, -0.00117602, -4.33021e-06, -0.00099481, -0.847861, 0.530218, -0.000627221, -0.530218, -0.847861, 0.313973, 0.0507882, 0.0387087)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0635553, 1.35978e-05, 0.0648008)
+body_offset = Transform3D(1, -3.8229e-06, -3.03762e-06, -2.89711e-06, -0.000256658, -1, 3.96426e-06, 1, -0.000257462, 0.0635555, 0.0648006, 3.33786e-06)
+bone_name = "DEF-foot.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-foot_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_feb6y")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-thigh_parent_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 1.26332e-07, 9.55537e-07, -9.55537e-07, 7.14967e-07, 1, 1.26331e-07, -1, 7.14967e-07, -0.0786402, 1.06538, -0.015421)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, -2.9803e-08, 9.55537e-07, 2.98023e-08, 1, 7.9005e-07, -9.55537e-07, -7.9005e-07, 1, 0, 0, 0)
+bone_name = "MCH-thigh_parent.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-thigh_parent_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_aag1j")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-thigh_tweak_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555535, -0.215894, 0.974835, 0.00894236, -0.976411, -0.215733, 0.998416, -0.0032674, 0.0561736, -0.0786405, 1.06538, -0.015421)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.02097e-16, -5.96047e-08, 2.38419e-07)
+body_offset = Transform3D(1, 4.62169e-07, 1.11759e-07, -4.25614e-07, 1, 2.88419e-07, -7.07805e-08, -3.59039e-07, 1, 0, 5.96046e-08, -2.38419e-07)
+bone_name = "MCH-thigh_tweak.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-thigh_tweak_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_oo71j")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-thigh_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555542, 0.974835, 0.215895, 0.00894103, -0.215735, 0.976411, 0.998416, 0.0561741, 0.00326893, -0.105908, 0.942087, -0.0158477)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.34795e-05, 7.19365e-06, 0.126272)
+body_offset = Transform3D(1, 6.18398e-07, 8.73581e-07, 8.801e-07, 1.4547e-06, -1, -5.73695e-07, 1, 1.56279e-06, -1.35899e-05, 0.126272, -7.39098e-06)
+bone_name = "DEF-thigh.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-thigh_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_5btx3")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-thigh_R_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555532, 0.974836, 0.21589, 0.00894358, -0.215729, 0.976412, 0.998416, 0.0561736, 0.00326593, -0.160428, 0.695489, -0.0166692)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.03661e-05, 2.59673e-06, 0.126274)
+body_offset = Transform3D(1, 1.13249e-06, -1.84774e-06, -1.84402e-06, -3.65512e-06, -1, -1.09151e-06, 1, -3.57119e-06, -1.01328e-05, 0.126274, -2.14577e-06)
+bone_name = "DEF-thigh.R.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-thigh_R_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_3avtr")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-shin_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555507, 0.990249, 0.127753, 0.00894109, -0.127453, 0.991804, 0.998416, 0.0562377, -0.00177383, -0.203375, 0.450439, -0.0168474)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.69651e-06, 2.56965e-06, 0.122755)
+body_offset = Transform3D(1, -1.19954e-06, 1.69384e-07, 1.74739e-07, 2.33522e-06, -1, 1.23307e-06, 1, 2.37366e-06, 6.67572e-06, 0.122755, -2.86102e-06)
+bone_name = "DEF-shin.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-shin_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_eh4wu")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-shin_R_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.0555472, 0.99025, 0.127748, 0.00894028, -0.127447, 0.991805, 0.998416, 0.0562341, -0.00177381, -0.234723, 0.206943, -0.0164325)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.48363e-05, -1.09914e-05, 0.122754)
+body_offset = Transform3D(1, -3.58373e-06, 5.2806e-07, 5.35161e-07, -3.73577e-06, -1, 3.63216e-06, 1, -3.68812e-06, -1.49012e-05, 0.122754, 1.14441e-05)
+bone_name = "DEF-shin.R.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-shin_R_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_oqvc5")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-foot_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.999999, 0.00121194, -1.8891e-06, 0.00102872, -0.847996, 0.530001, 0.000640726, -0.530001, -0.847997, -0.241966, 0.0509658, 0.0385984)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00845045, 4.55887e-06, 0.0646124)
+body_offset = Transform3D(1, 4.25905e-05, -2.73791e-06, -2.61911e-06, -5.06639e-07, -1, -4.25444e-05, 1, -4.76837e-07, 0.00845063, 0.0646124, -4.88758e-06)
+bone_name = "DEF-foot.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-foot_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_n2uxu")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone tweak_spine_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -1.56222e-08, 3.22325e-07, 9.10251e-08, 0.971924, -0.235295, -3.096e-07, 0.235295, 0.971924, 0, 1.1573, -0.0332278)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 3.72527e-08, 4.47035e-07, -3.72531e-08, 1, 7.89762e-07, -4.47035e-07, -7.89762e-07, 1, 0, 0, 0)
+bone_name = "tweak_spine.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone tweak_spine_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_1n7b8")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-spine_002" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 1.80798e-07, -1.8999e-07, 1.8999e-07, -4.69387e-07, 1, 1.80798e-07, -1, -4.69387e-07, 0, 1.2929, -0.000399947)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 2.98024e-08, -1.8999e-07, -2.98023e-08, 1, 4.69387e-07, 1.8999e-07, -4.69387e-07, 1, 0, 0, 0)
+bone_name = "MCH-spine.002"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-spine_002"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_0m1gm")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-pivot" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 5.38782e-08, 2.25772e-07, 7.57964e-10, 0.971924, -0.235297, -2.32111e-07, 0.235297, 0.971924, 0, 1.2929, -0.000399947)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 8.9407e-08, 3.72528e-07, -8.94067e-08, 1, -7.89762e-07, -3.72528e-07, 7.89762e-07, 1, 0, 0, 0)
+bone_name = "MCH-pivot"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-pivot"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_gdc1e")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone tweak_spine_002" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -1.08273e-06, -2.68584e-06, 1.16763e-06, 0.999494, 0.0318129, 2.65004e-06, -0.0318129, 0.999494, 0, 1.2929, -0.000399947)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, -1.11012e-06, -2.51829e-06, 1.11012e-06, 1, -6.70552e-08, 2.51829e-06, 6.70552e-08, 1, 0, 0, 0)
+bone_name = "tweak_spine.002"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone tweak_spine_002"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_scf1x")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-spine_003" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 3.30391e-06, 8.84891e-07, -8.8489e-07, -3.24756e-07, 1, 3.30391e-06, -1, -3.24753e-07, 0, 1.4657, -0.00590003)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 3.15291e-06, 8.84891e-07, -3.15291e-06, 1, -1.10576e-06, -8.84895e-07, 1.10576e-06, 1, 0, 0, 0)
+bone_name = "MCH-spine.003"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-spine_003"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_hlb77")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-spine_004" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -9.87735e-08, 5.80397e-07, 1.36979e-07, -0.919738, -0.392533, 5.72585e-07, 0.392533, -0.919738, -5.80549e-05, 1.67157, 0.0198745)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.80377e-05, 1.58137e-05, 0.0340108)
+body_offset = Transform3D(1, -4.0977e-08, 5.06639e-07, 5.06639e-07, -2.29478e-06, -1, 4.09782e-08, 1, -2.29478e-06, -5.80549e-05, 0.0340108, -1.57356e-05)
+bone_name = "ORG-spine.004"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-spine_004"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_2fhoc")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-spine_005" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -4.0126e-07, 1.08707e-07, -2.56964e-07, -0.802159, -0.597111, 3.26797e-07, 0.597111, -0.802159, -2.74181e-06, 1.70106, 0.0728756)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.74101e-06, 1.82592e-06, 0.0270528)
+body_offset = Transform3D(1, -1.49012e-08, 2.98022e-08, 2.98023e-08, 3.01003e-06, -1, 1.49012e-08, 1, 3.01003e-06, -2.74181e-06, 0.0270528, -1.90735e-06)
+bone_name = "ORG-spine.005"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-spine_005"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_wg21e")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-ROT-neck" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 5.70423e-07, 2.88091e-06, -2.88091e-06, -1.90921e-06, 1, 5.70428e-07, -1, -1.90921e-06, 0, 1.6582, -0.0114003)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 5.82348e-07, 2.88091e-06, -5.82349e-07, 1, 4.76835e-07, -2.88091e-06, -4.76837e-07, 1, 0, 0, 0)
+bone_name = "MCH-ROT-neck"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-ROT-neck"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_q7nim")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone neck" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -7.64309e-08, 1.69611e-08, -5.85241e-08, -0.873675, -0.48651, 5.20028e-08, 0.48651, -0.873675, 7.7486e-06, 1.68771, 0.0415869)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.74499e-06, 5.65336e-06, 0.0606518)
+body_offset = Transform3D(1, 5.96045e-08, -5.96046e-08, -5.96046e-08, 1.13249e-06, -1, -5.96045e-08, 1, 1.13249e-06, 7.7486e-06, 0.0606518, -5.72205e-06)
+bone_name = "neck"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone neck"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_3i73c")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-ROT-head" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -2.474e-07, 1.29697e-06, -1.29697e-06, -1.44722e-07, 1, -2.474e-07, -1, -1.44723e-07, 0, 1.71722, 0.0945781)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, -2.474e-07, 1.29697e-06, 2.47402e-07, 1, -1.28579e-06, -1.29697e-06, 1.28579e-06, 1, 0, 0, 0)
+bone_name = "MCH-ROT-head"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-ROT-head"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_rdhnb")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-STR-neck" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-1, -8.14561e-07, 1.41215e-07, -8.04613e-07, 0.919736, -0.392537, 1.89865e-07, -0.392537, -0.919736, -1.94311e-05, 1.67159, 0.0198702)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.94293e-05, -4.13076e-05, 0.0340172)
+body_offset = Transform3D(-1, -9.41849e-07, 5.08513e-08, -1.49005e-07, 0.10451, -0.994524, 9.31377e-07, -0.994524, -0.10451, -1.94311e-05, 0.0338352, 0.00351405)
+bone_name = "MCH-STR-neck"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-STR-neck"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_w38i4")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-spine_005" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -3.02275e-06, -1.0346e-06, 5.66705e-07, 0.486512, -0.873674, 3.14424e-06, 0.873674, 0.486512, 0, 1.68491, 0.0511758)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, -2.89083e-06, -9.61136e-07, 2.89083e-06, 1, 4.14252e-06, 9.61124e-07, -4.14252e-06, 1, 0, 0, 0)
+bone_name = "MCH-spine.005"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-spine_005"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_a72ga")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone tweak_spine_003" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -3.53367e-07, 5.94165e-07, 3.36253e-07, 0.999592, 0.0285605, -6.04015e-07, -0.0285605, 0.999592, 0, 1.4657, -0.00590003)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, -3.57679e-07, 7.45099e-07, 3.5768e-07, 1, -8.64267e-07, -7.45099e-07, 8.64267e-07, 1, 0, 0, 0)
+bone_name = "tweak_spine.003"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone tweak_spine_003"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_43rev")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-spine_003" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.980325, -0.196496, 0.0187487, -0.113067, 0.481149, -0.869317, 0.161796, -0.854333, -0.4939, 0.00915265, 1.53526, 0.0314705)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0107908, 0.000257954, 0.0787529)
+body_offset = Transform3D(-0.980325, -0.196496, 0.0187486, -0.117642, 0.505354, -0.854855, 0.158501, -0.840242, -0.518528, 0.00915265, 0.0684614, 0.0393419)
+bone_name = "ORG-spine.003"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-spine_003"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_wh50g")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-shoulder_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.408685, 0.147956, -0.900603, 0.252297, 0.930005, 0.267276, 0.87711, -0.336452, 0.342751, 0.106803, 1.57262, 0.0347159)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00156968, 0.00578047, 0.0999323)
+body_offset = Transform3D(0.966375, -0.256341, -0.0202014, 2.47359e-06, 0.0785724, -0.996908, 0.257136, 0.963388, 0.075931, 0.00198364, 0.0991691, -0.0135604)
+bone_name = "ORG-shoulder.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-shoulder_L"]
+transform = Transform3D(0.906919, 0.421305, 2.98023e-08, -3.5039e-09, -2.8844e-08, 1, 0.421305, -0.906919, 1.49012e-08, -0.0159135, -0.0152373, -0.0692023)
+shape = SubResource("CapsuleShape3D_ucj2v")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-upper_arm_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672613, 0.298897, -0.676943, -0.62923, 0.250413, 0.735773, 0.389436, 0.920844, 0.019644, 0.297314, 1.44169, -0.00192213)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.90743e-06, -1.29247e-06, 0.150696)
+body_offset = Transform3D(1, 2.77162e-06, -1.97813e-06, -1.99908e-06, 2.16067e-06, -1, -2.80142e-06, 1, 2.24821e-06, -1.60933e-06, 0.150696, 9.53674e-07)
+bone_name = "ORG-upper_arm.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-upper_arm_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_eg7hj")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-forearm_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672612, 0.233608, -0.702154, -0.62923, 0.318808, 0.708824, 0.389439, 0.91858, -0.0674409, 0.503172, 1.226, 0.00391126)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000472741, 0.00107758, 0.1478)
+body_offset = Transform3D(1, -8.9407e-07, -9.12696e-07, -8.19564e-07, 4.20958e-07, -1, 8.34465e-07, 1, 4.95464e-07, -0.000472605, 0.1478, -0.00107765)
+bone_name = "ORG-forearm.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-forearm_L"]
+transform = Transform3D(0.992235, 0.123454, 0.015139, -0.0098047, -0.0437046, 0.998995, 0.123992, -0.991387, -0.0421547, 0.0118773, 0.0113197, -0.111232)
+shape = SubResource("CapsuleShape3D_x02ie")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-hand_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.884226, 0.368966, 0.286372, -0.297384, -0.917547, 0.263952, 0.360149, 0.148231, 0.921043, 0.606969, 1.12121, 0.0150608)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.61037e-06, 1.39808e-05, -2.45761e-06)
+body_offset = Transform3D(0.999957, 0.00915024, -0.00147608, -0.00914484, 0.999952, 0.00357151, 0.00150865, -0.00355792, 0.999994, -2.74181e-06, -1.39475e-05, 2.5034e-06)
+bone_name = "ORG-hand.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-hand_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_svkbj")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-hand_tweak_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.881234, 0.378033, 0.283757, -0.306126, -0.913851, 0.266765, 0.360157, 0.148217, 0.921042, 0.606953, 1.12123, 0.0150663)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.70326e-06, 3.39745e-05, -7.27111e-06)
+body_offset = Transform3D(1, 2.22065e-05, -3.14713e-05, -2.2117e-05, 1, 1.10865e-05, 3.14713e-05, -1.1161e-05, 1, 8.70228e-06, -3.39746e-05, 7.27177e-06)
+bone_name = "MCH-hand_tweak.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-hand_tweak_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_gtjiv")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-forearm_tweak_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.67261, 0.702157, 0.233604, -0.629234, -0.708821, 0.318807, 0.389436, 0.0674415, 0.918581, 0.399324, 1.33084, -0.00515056)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000119864, 4.10081e-05, 0.000237942)
+body_offset = Transform3D(1, -2.30968e-06, 2.35438e-06, 2.44193e-06, 1, -1.61305e-06, -2.41399e-06, 1.57207e-06, 1, -0.000119865, -4.1008e-05, -0.000237942)
+bone_name = "MCH-forearm_tweak.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-forearm_tweak_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("SphereShape3D_u568b")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-forearm_tweak_L_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.670235, 0.702155, 0.240341, -0.626002, -0.708823, 0.325102, 0.398632, 0.0674409, 0.914628, 0.503144, 1.22602, 0.00505269)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.05937e-05, 1.68085e-05, 2.99793e-05)
+body_offset = Transform3D(0.999996, -2.68221e-07, -0.00299054, 3.18512e-07, 1, -5.21541e-08, 0.00299048, 1.11759e-08, 0.999997, -2.0504e-05, -1.68085e-05, -3.00407e-05)
+bone_name = "MCH-forearm_tweak.L.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-forearm_tweak_L_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_8nfr6")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-upper_arm_tweak_L_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672754, 0.676892, 0.298695, -0.629327, -0.735817, 0.250042, 0.389036, -0.0197606, 0.92101, 0.297314, 1.44169, -0.00192261)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.55703e-07, 2.80385e-11, -1.18923e-07)
+body_offset = Transform3D(1, 1.81366e-05, 0.000437081, -1.81771e-05, 1, 0.000135548, -0.000437081, -0.000135696, 1, -6.55651e-07, 0, 1.19209e-07)
+bone_name = "MCH-upper_arm_tweak.L.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-upper_arm_tweak_L_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_2tqu2")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-upper_arm_parent_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, 2.05719e-06, -3.20425e-07, 3.2043e-07, -2.37673e-06, 1, 2.05719e-06, -1, -2.37674e-06, 0.1953, 1.55257, 0.00103772)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 4.08785e-08, 1.86215e-07, -9.02374e-08, 1, -1.11758e-07, -1.26605e-07, 4.47035e-08, 1, 0, 0, 0)
+bone_name = "MCH-upper_arm_parent.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-upper_arm_parent_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_cve77")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-upper_arm_tweak_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672604, 0.676944, 0.298915, -0.629235, -0.735772, 0.250404, 0.389443, -0.019665, 0.920841, 0.195205, 1.55266, 0.00103474)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.46283e-06, 0.000127792, 9.53947e-06)
+body_offset = Transform3D(1, -7.68201e-06, -5.33462e-06, 7.63405e-06, 1, 2.09324e-05, 5.27501e-06, -2.10255e-05, 1, 8.46386e-06, -0.000127792, -9.53674e-06)
+bone_name = "MCH-upper_arm_tweak.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-upper_arm_tweak_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_7o8g2")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-upper_arm_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672616, 0.298896, -0.676941, -0.629225, 0.25042, 0.735776, 0.38944, 0.920843, 0.019637, 0.246334, 1.49712, -0.000438452)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.25701e-05, -9.52768e-06, 0.0753727)
+body_offset = Transform3D(1, -2.5332e-06, -7.03102e-06, -7.02171e-06, -3.33041e-06, -1, 2.47359e-06, 1, -3.28384e-06, -1.20401e-05, 0.0753727, 9.77516e-06)
+bone_name = "DEF-upper_arm.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-upper_arm_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_c5w32")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-upper_arm_L_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672584, 0.298967, -0.676941, -0.629206, 0.25047, 0.735775, 0.389526, 0.920806, 0.0196503, 0.348326, 1.38626, -0.00340593)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.833e-06, 2.96744e-07, 0.0753498)
+body_offset = Transform3D(1, -9.58443e-05, -1.29594e-06, -1.30013e-06, 8.61287e-06, -1, 9.57549e-05, 1, 8.70973e-06, -6.73532e-06, 0.0753498, -9.53674e-07)
+bone_name = "DEF-upper_arm.L.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-upper_arm_L_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_6gcb4")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-forearm_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672605, 0.233654, -0.702146, -0.629201, 0.318847, 0.708832, 0.389499, 0.918554, -0.0674431, 0.451241, 1.27841, 1.78814e-06)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.44909e-05, 9.13126e-05, 0.0739224)
+body_offset = Transform3D(1, -6.75023e-05, -1.3167e-05, -1.32807e-05, 3.15905e-06, -1, 6.73532e-05, 1, 3.20747e-06, -4.35114e-05, 0.0739225, -9.15527e-05)
+bone_name = "DEF-forearm.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-forearm_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_7ou3s")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-forearm_L_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672583, 0.233715, -0.702147, -0.629185, 0.318875, 0.708833, 0.389562, 0.918529, -0.06742, 0.555055, 1.17364, 0.0100956)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.51924e-05, -3.25441e-05, 0.0738977)
+body_offset = Transform3D(1, -0.00013569, -3.19444e-06, -3.19444e-06, 2.41287e-05, -1, 0.00013566, 1, 2.41697e-05, -1.49608e-05, 0.0738978, 3.0756e-05)
+bone_name = "DEF-forearm.L.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-forearm_L_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_i2ttw")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-shoulder_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.408684, -0.147959, 0.900603, -0.252299, 0.930004, 0.26728, -0.87711, -0.336454, 0.342748, -0.106798, 1.57883, 0.0347176)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.05915e-06, 1.23447e-06, 0.0982666)
+body_offset = Transform3D(0.966375, 0.256343, 0.0202052, 2.98023e-07, 0.0785759, -0.996908, -0.257138, 0.963387, 0.0759336, -0.00198382, 0.0979626, -0.00746346)
+bone_name = "ORG-shoulder.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-shoulder_R"]
+transform = Transform3D(0.947456, -0.319885, 0, 0, 0, 1, -0.319885, -0.947456, 0, 0.000254894, -0.0152799, -0.0651358)
+shape = SubResource("CapsuleShape3D_ucj2v")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-upper_arm_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672618, -0.2989, 0.676937, 0.629228, 0.250404, 0.735779, -0.389432, 0.920846, 0.0196502, -0.297995, 1.4419, -0.00265968)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000878546, 0.000420602, 0.151019)
+body_offset = Transform3D(1, -8.07643e-06, 6.16489e-06, 6.26594e-06, 9.06177e-06, -1, 8.13603e-06, 1, 8.91834e-06, 0.000877619, 0.151019, -0.000421941)
+bone_name = "ORG-upper_arm.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-upper_arm_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_enqtu")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-forearm_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672604, -0.23364, 0.702151, 0.62921, 0.318843, 0.708826, -0.389486, 0.918559, -0.0674463, -0.503139, 1.226, 0.0050981)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.34235e-05, -3.90584e-06, 0.14786)
+body_offset = Transform3D(1, 5.20051e-05, 5.96419e-06, 6.10575e-06, -4.51505e-06, -1, -5.20051e-05, 1, -4.61936e-06, -1.43051e-05, 0.14786, 4.58956e-06)
+bone_name = "ORG-forearm.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-forearm_R"]
+transform = Transform3D(0.992319, -0.123705, -8.9407e-08, 8.9407e-08, 5.21541e-08, 1, -0.123705, -0.992319, 1.11759e-08, -0.0152268, 0.00524354, -0.109849)
+shape = SubResource("CapsuleShape3D_4gpqv")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-hand_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.881236, -0.378055, -0.283719, 0.306157, -0.913841, 0.266763, -0.360125, 0.148219, 0.921054, -0.60697, 1.1212, 0.0150633)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.483e-11, 4.50015e-06, -4.11272e-06)
+body_offset = Transform3D(1, -9.31323e-08, -6.13928e-06, 3.1665e-07, 1, 2.98023e-07, 6.22869e-06, -1.63913e-07, 1, 0, -4.50015e-06, 4.11272e-06)
+bone_name = "ORG-hand.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-hand_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_xx82q")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-hand_tweak_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.881234, -0.378055, -0.283727, 0.306155, -0.913842, 0.266763, -0.360133, 0.148216, 0.921052, -0.606969, 1.1212, 0.0150605)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.76847e-07, 6.55651e-06, -1.66892e-06)
+body_offset = Transform3D(1, 1.54972e-06, -8.9407e-08, -1.38208e-06, 1, 1.80304e-06, 2.08616e-07, -1.71363e-06, 1, 4.76837e-07, -6.55651e-06, 1.66893e-06)
+bone_name = "MCH-hand_tweak.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-hand_tweak_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_g4ipp")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-forearm_tweak_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672617, -0.702148, -0.233611, 0.629222, -0.70883, 0.318811, -0.389443, 0.0674443, 0.918578, -0.399272, 1.33082, -0.00486004)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.48231e-05, 3.90108e-05, -9.2385e-06)
+body_offset = Transform3D(1, -9.53116e-06, 5.69224e-06, 9.65968e-06, 1, -8.49366e-07, -5.69224e-06, 9.42498e-07, 1, -4.48227e-05, -3.90112e-05, 9.23872e-06)
+bone_name = "MCH-forearm_tweak.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-forearm_tweak_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("SphereShape3D_qmbql")
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-forearm_tweak_R_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.670951, -0.702157, -0.238327, 0.626972, -0.70882, 0.323234, -0.395892, 0.0674499, 0.915817, -0.502694, 1.22524, 0.00549603)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00094366, -0.000247717, -1.90141e-05)
+body_offset = Transform3D(1, 2.21655e-07, -3.15905e-06, -6.33299e-08, 1, -1.09822e-05, 3.18885e-06, 1.11014e-05, 1, -0.000943661, 0.000247717, 1.90139e-05)
+bone_name = "MCH-forearm_tweak.R.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-forearm_tweak_R_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_ljfy5")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-upper_arm_tweak_R_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672615, -0.676942, -0.298894, 0.629231, -0.735774, 0.25041, -0.389432, -0.0196442, 0.920846, -0.297313, 1.44167, -0.00193655)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.62951e-06, -1.49012e-05, 1.74641e-05)
+body_offset = Transform3D(1, -1.02678e-06, -7.56979e-06, 1.16043e-06, 1, 5.73695e-07, 7.56979e-06, -4.58211e-07, 1, -7.62939e-06, 1.49012e-05, -1.74642e-05)
+bone_name = "MCH-upper_arm_tweak.R.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-upper_arm_tweak_R_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_g2we6")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-upper_arm_parent_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1, -4.63793e-07, -8.49367e-07, 8.49366e-07, -1.23888e-06, 1, -4.63794e-07, -1, -1.23888e-06, -0.1953, 1.55257, 0.00103736)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 2.10485e-07, -1.49021e-08, -1.32252e-07, 1, -3.18295e-07, 4.47033e-08, 3.25745e-07, 1, 0, 0, 0)
+bone_name = "MCH-upper_arm_parent.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-upper_arm_parent_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_dk1s6")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-upper_arm_tweak_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672614, -0.676943, -0.298896, 0.629232, -0.735773, 0.250409, -0.389432, -0.0196464, 0.920846, -0.195311, 1.55258, 0.00102818)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57356e-05, -2.92063e-06, 3.27837e-06)
+body_offset = Transform3D(1, -3.10596e-07, -7.48038e-06, 3.72995e-07, 1, 2.46242e-06, 7.56979e-06, -2.34134e-06, 1, 1.57356e-05, 2.92063e-06, -3.27826e-06)
+bone_name = "MCH-upper_arm_tweak.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-upper_arm_tweak_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_52dp8")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-upper_arm_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672615, -0.298894, 0.676943, 0.629231, 0.250411, 0.735773, -0.389432, 0.920846, 0.0196433, -0.246311, 1.49713, -0.000439405)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.4817e-07, -3.36056e-06, 0.0753552)
+body_offset = Transform3D(1, -7.15256e-06, 1.39978e-06, 1.4822e-06, -3.66941e-07, -1, 7.24196e-06, 1, -4.89876e-07, -9.53674e-07, 0.0753552, 3.39746e-06)
+bone_name = "DEF-upper_arm.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-upper_arm_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_6owo5")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-upper_arm_R_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672612, -0.298895, 0.676945, 0.629235, 0.250408, 0.735771, -0.389431, 0.920846, 0.0196476, -0.348791, 1.38657, -0.00367963)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000622958, 3.45375e-05, 0.0754396)
+body_offset = Transform3D(1, -8.79169e-06, -3.54974e-06, -3.43286e-06, 2.2687e-06, -1, 8.85129e-06, 1, 2.09361e-06, 0.000623226, 0.0754396, -3.46899e-05)
+bone_name = "DEF-upper_arm.R.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-upper_arm_R_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_1crkm")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-forearm_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672612, -0.233292, 0.702259, 0.629233, 0.319119, 0.708681, -0.389434, 0.918552, -0.0678486, -0.451218, 1.27841, 0.000123024)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.46036e-05, 2.00984e-05, 0.0739202)
+body_offset = Transform3D(1, -5.126e-06, -6.27711e-07, -6.14673e-07, -0.000445198, -1, 5.126e-06, 1, -0.000445258, -2.45571e-05, 0.0739203, 1.2815e-05)
+bone_name = "DEF-forearm.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-forearm_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_lskl3")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone DEF-forearm_R_001" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.672614, -0.233606, 0.702153, 0.62923, 0.318807, 0.708825, -0.389437, 0.918581, -0.067442, -0.555052, 1.1736, 0.010074)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.88723e-06, 4.03083e-06, 0.0739286)
+body_offset = Transform3D(1, -1.99676e-06, 2.33576e-06, 2.36742e-06, -1.19954e-06, -1, 2.02656e-06, 1, -1.3113e-06, -9.05991e-06, 0.0739287, -3.93391e-06)
+bone_name = "DEF-forearm.R.001"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone DEF-forearm_R_001"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_08dmp")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-breast_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-1, -7.47334e-07, 1.67092e-06, 1.67092e-06, -1.18465e-06, 1, -7.47332e-07, 1, 1.18465e-06, 0.1184, 1.4596, -0.0485001)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 5.96339e-07, -1.75834e-06, -5.96334e-07, 1, 2.63751e-06, 1.75834e-06, -2.63751e-06, 1, 0, 0, 0)
+bone_name = "ORG-breast.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-breast_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_soxpx")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone ORG-breast_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-1, -7.47334e-07, 1.67092e-06, 1.67092e-06, -1.18465e-06, 1, -7.47332e-07, 1, 1.18465e-06, -0.1184, 1.4596, -0.0485001)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+body_offset = Transform3D(1, 5.96339e-07, -1.75834e-06, -5.96334e-07, 1, 2.63751e-06, 1.75834e-06, -2.63751e-06, 1, 0, 0, 0)
+bone_name = "ORG-breast.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone ORG-breast_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_ixd04")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-heel_02_rock2_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-6.10628e-10, 4.21363e-08, -1, 1, 3.27826e-07, -6.10614e-10, 3.27826e-07, -1, -4.21363e-08, 0.252451, 2.08616e-07, -0.0459342)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.08581e-07, -3.42148e-05, 0.0400339)
+body_offset = Transform3D(-6.10628e-10, 4.21363e-08, -1, -3.27826e-07, 1, 4.21363e-08, 1, 3.27826e-07, -6.10614e-10, 0.0400339, 3.42131e-05, 2.08616e-07)
+bone_name = "MCH-heel.02_rock2.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-heel_02_rock2_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_lqtyi")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-heel_02_rock1_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(6.10628e-10, -1.66384e-08, 1, -1, 3.27826e-07, 6.10633e-10, -3.27826e-07, -1, -1.66384e-08, 0.272451, 3.8743e-07, -0.0458997)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.87442e-07, 2.38086e-07, 0.0199661)
+body_offset = Transform3D(6.10628e-10, -1.66384e-08, 1, 3.27826e-07, 1, 1.66384e-08, -1, 3.27826e-07, 6.10633e-10, -0.0199661, -2.38419e-07, 3.8743e-07)
+bone_name = "MCH-heel.02_rock1.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-heel_02_rock1_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_4vmq7")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-heel_02_roll2_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.992904, -0.11806, 0.0142557, -0.118918, 0.985745, -0.11902, -8.60542e-07, -0.119871, -0.99279, 0.254021, 0.0084869, 0.0230526)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00260153, 8.88165e-05, 0.0694426)
+body_offset = Transform3D(-0.992904, -0.11806, 0.0142557, 8.60542e-07, 0.119871, 0.99279, -0.118918, 0.985745, -0.11902, 0.0016036, -0.0689526, 0.0084869)
+bone_name = "MCH-heel.02_roll2.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-heel_02_roll2_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_8haop")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-heel_02_roll1_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-1, -3.02811e-08, -1.89284e-08, 3.57104e-08, -0.847998, -0.53, -2.24532e-12, -0.53, 0.847998, 0.250417, 0.0509498, 0.0385836)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.17986e-07, -8.91276e-06, 0.0646365)
+body_offset = Transform3D(-1, -3.02811e-08, -1.89284e-08, 2.24532e-12, 0.53, -0.847998, 3.57104e-08, -0.847998, -0.53, 1.19209e-07, 0.0548164, 0.0342498)
+bone_name = "MCH-heel.02_roll1.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-heel_02_roll1_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_h7aoo")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-foot_roll_L" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.999999, -4.54197e-09, -0.0011704, -0.000992494, -0.530002, -0.847996, -0.000620308, 0.847997, -0.530001, 0.146732, 0.0311743, -0.00671589)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.103637, -0.0366763, -0.0409083)
+body_offset = Transform3D(1, -1.10595e-09, -1.49303e-08, 1.16415e-09, 1, -2.65241e-06, 1.47265e-08, 2.71201e-06, 1, -0.103637, 0.0366762, 0.0409084)
+bone_name = "MCH-foot_roll.L"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-foot_roll_L"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_0fj8a")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-heel_02_rock2_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-1.13157e-07, 5.96046e-08, 1, -1, -7.7486e-07, -1.13157e-07, 7.7486e-07, -1, 5.96047e-08, -0.252417, 2.08616e-06, -0.0458957)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08163e-06, 4.29392e-06, 0.0399997)
+body_offset = Transform3D(-1.13157e-07, 5.96046e-08, 1, -7.7486e-07, 1, -5.96047e-08, -1, -7.7486e-07, -1.13157e-07, -0.0399997, -4.29153e-06, 2.08616e-06)
+bone_name = "MCH-heel.02_rock2.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-heel_02_rock2_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_n3jyj")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-heel_02_rock1_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(1.13157e-07, 5.96046e-08, -1, 1, -7.7486e-07, 1.13157e-07, -7.7486e-07, -1, -5.96047e-08, -0.272145, -2.83122e-07, 0.0701756)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.70771e-07, 0.116076, 0.0202715)
+body_offset = Transform3D(1.13157e-07, 5.96046e-08, -1, 7.7486e-07, 1, 5.96047e-08, 1, -7.7486e-07, 1.13157e-07, 0.0202715, -0.116076, -2.83122e-07)
+bone_name = "MCH-heel.02_rock1.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-heel_02_rock1_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_d7jbd")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-heel_02_roll2_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-0.992904, 0.118058, -0.0142542, 0.118915, 0.985745, -0.119022, -5.38304e-07, -0.119873, -0.992789, -0.251419, 0.00835188, 0.0237879)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.54309e-06, 3.08454e-06, 0.0701936)
+body_offset = Transform3D(-0.992904, 0.118058, -0.0142542, 5.38304e-07, 0.119873, 0.992789, 0.118915, 0.985745, -0.119022, 0.000997663, -0.0696878, 0.00835188)
+bone_name = "MCH-heel.02_roll2.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-heel_02_roll2_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_n11vv")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-heel_02_roll1_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(-1, -1.57954e-08, -4.50163e-08, 3.7253e-08, -0.847998, -0.529999, -2.98022e-08, -0.529999, 0.847998, -0.250417, 0.0509558, 0.0387372)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9052e-09, 7.76034e-05, 0.0645095)
+body_offset = Transform3D(-1, -1.57954e-08, -4.50163e-08, 2.98022e-08, 0.529999, -0.847998, 3.7253e-08, -0.847998, -0.529999, 0, 0.0546628, 0.0342558)
+bone_name = "MCH-heel.02_roll1.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-heel_02_roll1_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_a2ahf")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)
+
+[node name="Physical Bone MCH-foot_roll_R" type="PhysicalBone3D" parent="."]
+transform = Transform3D(0.999999, -1.18727e-07, 0.00117025, 0.000992304, -0.53, -0.847997, 0.000620332, 0.847998, -0.53, -0.250416, 0.0852, -0.0161999)
+collision_layer = 8
+collision_mask = 8
+joint_type = 1
+joint_offset = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.15256e-07, 8.55983e-14, 9.55277e-14)
+body_offset = Transform3D(1, -1.19791e-07, -1.33383e-07, 1.19675e-07, 1, -7.15256e-07, 1.33557e-07, 6.85453e-07, 1, 7.15256e-07, 0, 0)
+bone_name = "MCH-foot_roll.R"
+joint_constraints/bias = 0.3
+joint_constraints/damping = 1.0
+joint_constraints/impulse_clamp = 0.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Physical Bone MCH-foot_roll_R"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_rilym")
+disabled = true
+debug_color = Color(1, 0.501961, 0, 0.419608)

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://dns15ebtu5jmj"]
+
+[ext_resource type="Script" uid="uid://w0bhugrek4lr" path="res://syncing_and_collision_demo/scripts/MultimeshInstanceControl.gd" id="1_42m4a"]
+[ext_resource type="Script" uid="uid://cqw3jf6bjp7rd" path="res://syncing_and_collision_demo/scripts/SwarmMovement.gd" id="2_nexq2"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_nexq2"]
+height = 1.8
+radius = 0.6
+
+[node name="Node" type="Area3D" node_paths=PackedStringArray("ai")]
+collision_layer = 12
+collision_mask = 4
+monitoring = false
+monitorable = false
+script = ExtResource("1_42m4a")
+ai = NodePath("CollisionShape3D Ghoul shape")
+
+[node name="CollisionShape3D Ghoul shape" type="CollisionShape3D" parent="." node_paths=PackedStringArray("body")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CylinderShape3D_nexq2")
+script = ExtResource("2_nexq2")
+body = NodePath("..")

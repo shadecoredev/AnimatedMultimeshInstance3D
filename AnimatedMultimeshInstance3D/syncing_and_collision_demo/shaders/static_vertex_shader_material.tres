@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://w401ovb6e5dn"]
+
+[ext_resource type="Shader" uid="uid://tbf6t6nv7ni7" path="res://nondemo/shaders/static_vetex_shader.gdshader" id="1_pt1fi"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_pt1fi")
+shader_parameter/total_frame_count = 0.0
+shader_parameter/total_vertex_count = 0.0
