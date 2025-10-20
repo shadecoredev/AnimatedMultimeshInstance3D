@@ -417,7 +417,8 @@ func get_current_animation_name(instance : int) -> String:
 	push_warning("Current animation not recognized")
 	return ""
 
-## Returnsthe timestamp of the playing animation on an instance. Use animation_player.seek(timestamp) to sync Multimesh to any AnimationPlayer.
+## Returns the timestamp of the currently playing animation from an instance. 
+## Use animation_player.seek(timestamp) to sync Multimesh to any AnimationPlayer.
 func get_current_animation_timestamp(instance : int) -> float:
 	return get_current_timestamp() - float(instance) * 0.19
 
