@@ -96,7 +96,7 @@ Here is a picture I made to explain what blend_duration and blend_out_time param
 
 Note that when using blend out time "get_current_animation" method retrieves the original animation (animation "A" in this case), since the animation is blended back to the original one.
 
-If you want to create a custom animation processing solution, you can use method combine_custom_buffer and send buffer data to multimesh directly.  
+If you want to create a custom animation processing solution, you can use method combine_custom_buffer and send buffer data to multimesh directly with [set_buffer()](https://docs.godotengine.org/en/stable/classes/class_multimesh.html#class-multimesh-property-buffer).  
 `combine_custom_buffer(main_animation : MultimeshAnimationData, blended_animation : MultimeshAnimationData , blend_duration : float = 0.0, blend_out_time : float = 0.0)`
 
 ## BulkAnimatedMultimeshControl
