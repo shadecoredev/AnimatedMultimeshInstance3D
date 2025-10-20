@@ -1,6 +1,5 @@
 /*
 Vertex animation with instancing.
-CC0, shadecore_dev, 2025.
 
 CUSTOM_INSTANCE buffer is used to display a unique animation per instance.
 It has total of 4 floats with 32 bits for Forward+ and 16 bits for Compatability renderer.
