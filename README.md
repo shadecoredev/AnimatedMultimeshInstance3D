@@ -83,7 +83,7 @@ To play an animation by name use
 `play(instance : int, animation_name: StringName = &"", blend_duration : float = 0.0, blend_out_time : float = 0.0)`
 
 To sync AnimatedMultiMeshInstance3D animation with AnimationPlayer use [AnimationPlayer.seek()](https://docs.godotengine.org/en/stable/classes/class_animationplayer.html#class-animationplayer-method-seek) with  
-`get_current_animation_timestamp(instance : int):`
+`get_current_animation_timestamp(instance : int)`
 
 To retrieve an animation data (MultimeshAnimationData) of currently played animation use  
 `get_current_animation(instance : int)`
