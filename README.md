@@ -143,7 +143,7 @@ It features:
 - Shooting and accurate per-instance raycast physical bone collision detection;
 - Turning dead entities into static corpses to boost performance.
 
-## License
+# License
 
 Copyright notice is located in `LICENSE.txt`.  
 Source code is licensed under MIT license.  
