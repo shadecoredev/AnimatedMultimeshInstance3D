@@ -1,5 +1,7 @@
 # Godot 4+ specific ignores
 .godot/
+export.cfg
+export_presets.cfg
 /android/
-nondemo/
 *.tmp
+*.blend1

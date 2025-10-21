@@ -66,10 +66,13 @@ The correct output should look like this:
 
 ![Correct output](images/Screenshot4.png)
 
-
 Once the animation is baked, new Multimesh should be set and material override should contain a ShaderMaterial with all parameters set. Albedo texture for the material must be set manually inside the material.
 
-AnimatedMultimeshInstance3D acts like the regular MultimeshInstance3D. Use instance_count inside multimesh to change mesh count.
+AnimatedMultimeshInstance3D acts like the regular MultimeshInstance3D, so it will not display any instances until you set instance count and provide instance transforms.
+
+The addon comes with BulkMultimeshControl utility script. It is located in `extras/`. You can create a BulkAnimatedMultimeshControl node in your scene, set your AnimatedMultimeshInstance3D as a target and press `Update` to update multimesh instances and see if the animations display properly.
+
+![BulkAnimatedMultimeshControl](images/Screenshot5.png)
 
 ## Methods to operate with the animations
 
@@ -98,13 +101,6 @@ Note that when using blend out time "get_current_animation" method retrieves the
 
 If you want to create a custom animation processing solution, you can use method combine_custom_buffer and send buffer data to multimesh directly with [set_buffer()](https://docs.godotengine.org/en/stable/classes/class_multimesh.html#class-multimesh-property-buffer).  
 `combine_custom_buffer(main_animation : MultimeshAnimationData, blended_animation : MultimeshAnimationData , blend_duration : float = 0.0, blend_out_time : float = 0.0)`
-
-## BulkAnimatedMultimeshControl
-
-I added a utility node called BulkAnimatedMultimeshControl as an example of how to use AnimatedMultimeshInstance3D.  
-It allows you to scatter animated meshes in a volume randomly. It picks and plays random animations from the animation list.
-
-![BulkAnimatedMultimeshControl](images/Screenshot5.png)
 
 ## Comprehensive demo
 
