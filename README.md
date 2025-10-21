@@ -77,22 +77,43 @@ The addon comes with BulkMultimeshControl utility script. It is located in `extr
 ## Methods to operate with the animations
 
 To retrieve a list of animation names from AnimatedMultiMeshInstance3D use  
-`get_animation_list()`
+```GDScript
+get_animation_list()
+```
 
 To retrieve an animation name of the currently played anmiation use  
-`get_current_animation_name(instance : int)`
+```GDScript
+get_current_animation_name(instance : int)
+```
 
 To play an animation by name use  
-`play(instance : int, animation_name: StringName = &"", blend_duration : float = 0.0, blend_out_time : float = 0.0)`
+```GDScript
+play(
+    instance : int,
+    animation_name: StringName = &"",
+    blend_duration : float = 0.0,
+    blend_out_time : float = 0.0
+)
+```
 
 To sync AnimatedMultiMeshInstance3D animation with AnimationPlayer use [AnimationPlayer.seek()](https://docs.godotengine.org/en/stable/classes/class_animationplayer.html#class-animationplayer-method-seek) with  
-`get_current_animation_timestamp(instance : int)`
+```GDScript
+get_current_animation_timestamp(instance : int)
+```
 
 To retrieve an animation data (MultimeshAnimationData) of currently played animation use  
-`get_current_animation(instance : int)`
+```GDScript
+get_current_animation(instance : int)
+```
 
 To play a custom animation from data use  
-`play_custom(instance : int, animation : MultimeshAnimationData, blend_duration: float = 0.0, blend_out_time : float = 0.0)`
+```GDScript
+play_custom(
+    instance : int, animation : MultimeshAnimationData,
+    blend_duration: float = 0.0,
+    blend_out_time : float = 0.0
+)
+```
 
 Here is a picture I made to explain what blend_duration and blend_out_time parameters mean.  
 ![BlendDurationBlendOutTime](images/BlendDurationBlendOutTime.png)
@@ -100,7 +121,14 @@ Here is a picture I made to explain what blend_duration and blend_out_time param
 Note that when using blend out time "get_current_animation" method retrieves the original animation (animation "A" in this case), since the animation is blended back to the original one.
 
 If you want to create a custom animation processing solution, you can use method combine_custom_buffer and send buffer data to multimesh directly with [set_buffer()](https://docs.godotengine.org/en/stable/classes/class_multimesh.html#class-multimesh-property-buffer).  
-`combine_custom_buffer(main_animation : MultimeshAnimationData, blended_animation : MultimeshAnimationData , blend_duration : float = 0.0, blend_out_time : float = 0.0)`
+```GDScript
+combine_custom_buffer(
+    main_animation : MultimeshAnimationData,
+    blended_animation : MultimeshAnimationData,
+    blend_duration : float = 0.0,
+    blend_out_time : float = 0.0
+)
+```
 
 ## Comprehensive demo
 
