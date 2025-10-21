@@ -145,7 +145,7 @@ It features:
 
 # License
 
-Copyright notice is located in `LICENSE.txt`.  
+Copyright notice is located in `LICENSE`.  
 Source code is licensed under MIT license.  
 Ghoul model and texture are licensed under CC BY-NC 4.0 license.
 
