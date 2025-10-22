@@ -109,7 +109,8 @@ get_current_animation(instance : int)
 To play a custom animation from data use  
 ```GDScript
 play_custom(
-    instance : int, animation : MultimeshAnimationData,
+    instance : int,
+    animation : MultimeshAnimationData,
     blend_duration: float = 0.0,
     blend_out_time : float = 0.0
 )
