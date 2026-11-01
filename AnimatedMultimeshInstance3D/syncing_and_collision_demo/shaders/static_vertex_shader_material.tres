@@ -1,6 +1,6 @@
-[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://w401ovb6e5dn"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://w401ovb6e5dn"]
 
-[ext_resource type="Shader" uid="uid://tbf6t6nv7ni7" path="res://nondemo/shaders/static_vetex_shader.gdshader" id="1_pt1fi"]
+[ext_resource type="Shader" uid="uid://tbf6t6nv7ni7" path="res://syncing_and_collision_demo/shaders/static_vertex_shader.gdshader" id="1_pt1fi"]
 
 [resource]
 render_priority = 0
