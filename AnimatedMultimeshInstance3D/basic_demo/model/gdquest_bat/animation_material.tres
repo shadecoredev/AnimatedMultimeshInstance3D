@@ -1,6 +1,6 @@
-[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://cfyrnsg6di2xa"]
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cfyrnsg6di2xa"]
 
-[ext_resource type="Shader" uid="uid://yniwtitbvxlc" path="res://addons/animated_multimeshinstance3d/shaders/vetex_animation_shader.gdshader" id="1_fux51"]
+[ext_resource type="Shader" uid="uid://yniwtitbvxlc" path="res://addons/animated_multimeshinstance3d/shaders/vertex_animation_shader.gdshader" id="1_fux51"]
 [ext_resource type="Texture2D" uid="uid://cxe4f7goak60t" path="res://basic_demo/model/gdquest_bat/bat_albedo.png" id="2_jn3t7"]
 
 [sub_resource type="Image" id="Image_l2sh1"]

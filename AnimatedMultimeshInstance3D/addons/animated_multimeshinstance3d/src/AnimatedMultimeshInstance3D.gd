@@ -4,7 +4,7 @@ extends MultiMeshInstance3D
 class_name AnimatedMultiMeshInstance3D
 ## MultimeshInstance3D that can bake and play animations.
 
-const ANIMATION_SHADER_PATH = "res://addons/animated_multimeshinstance3d/shaders/vetex_animation_shader.gdshader"
+const ANIMATION_SHADER_PATH = "res://addons/animated_multimeshinstance3d/shaders/vertex_animation_shader.gdshader"
 
 const VERTEX_COUNT_LIMIT : int = 8192
 const FRAME_COUNT_LIMIT : int = 8192
@@ -70,11 +70,11 @@ var _total_frame_counter : int = 0
 ## Dictionary containing the animation data. Manual editing is not recommended. Rebake the animation to update the values.
 @export var animation_list : Dictionary[String, MultimeshAnimationData] = {}
 
-func _get_property_list():
+func _get_property_list() -> Array[Dictionary]:
 	if !Engine.is_editor_hint():
-		return
+		return [{}]
 
-	var property_list = []
+	var property_list: Array[Dictionary] = []
 	if custom_output_directory:
 		property_list.append({
 			"name": "output_directory",

@@ -84,7 +84,7 @@ void vertex() {
 	float y = fma(pixel, 0.5, float(VERTEX_ID) / total_vertex_count);
 #endif
 
-#if (USE_BLENDING and CURRENT_RENDERER == RENDERER_FORWARD_PLUS)
+#if USE_BLENDING and CURRENT_RENDERER == RENDERER_FORWARD_PLUS
 	int custom_g = floatBitsToInt(INSTANCE_CUSTOM.g);
 	int blend_starting_frame = custom_g & 0xFF;
 	int blend_frame_length = (custom_g >> 16) & 0xFF;
@@ -179,7 +179,7 @@ void vertex() {
 		frame_blend
 	);
 
-#if (USE_BLENDING and CURRENT_RENDERER == RENDERER_FORWARD_PLUS)
+#if USE_BLENDING and CURRENT_RENDERER == RENDERER_FORWARD_PLUS
 	VERTEX = mix(vertex_lerp, blend_vertex_lerp, blend_amount);
 	NORMAL = mix(normal_lerp, blend_normal_lerp, blend_amount);
 #else
